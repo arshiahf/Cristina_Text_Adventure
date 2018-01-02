@@ -1,0 +1,6 @@
+[package]
+name = "Cristina_Text_Adventure"
+version = "0.1.0"
+authors = ["MTaurone <arshiahf@gmail.com>"]
+
+[dependencies]
