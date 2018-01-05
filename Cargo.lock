@@ -1,0 +1,14 @@
+[[package]]
+name = "Cristina_Text_Adventure"
+version = "0.1.0"
+dependencies = [
+ "user_input 0.1.0 (git+https://github.com/arshiahf/user_input)",
+]
+
+[[package]]
+name = "user_input"
+version = "0.1.0"
+source = "git+https://github.com/arshiahf/user_input#bd91f4e36d5eb2ef844225aca8372a8068a2a188"
+
+[metadata]
+"checksum user_input 0.1.0 (git+https://github.com/arshiahf/user_input)" = "<none>"

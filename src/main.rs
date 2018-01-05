@@ -1,9 +1,12 @@
-extern crate text_adventure;
+extern crate user_input;
+//extern crate text_adventure;
 
-use text_adventure::commands::{interaction,perception};
-use text_adventure::environment;
+use user_input::requests::{request_input};
+//use text_adventure::commands::{interaction,perception};
+//use text_adventure::environment;
 
 fn main()
 {
-    println!("Hello, world!");
+    print!("Write something: ");
+    request_input();
 }
