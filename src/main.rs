@@ -1,7 +1,7 @@
 extern crate user_input;
 extern crate text_adventure;
 
-//use user_input::requests::{request_input_string, request_input_to_vec};
+use user_input::requests::{request_input_string, request_input_to_vec};
 //use text_adventure::commands::{interaction,perception};
 use text_adventure::environment::{create_rooms};
 
@@ -19,7 +19,9 @@ fn main()
     }
     println!("{}", str_in);
     */
-    let root_dir:String = String::from("rooms\\");
+    let mut strVec:Vec<str> = Vec::new();
+    request_input_to_vec("Please input root directory with no spaces: ", &mut strVec);
+    let root_dir:str = strVec[0];
     create_rooms(root_dir);
 
 }
