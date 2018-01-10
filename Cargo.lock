@@ -1,6 +1,15 @@
 [[package]]
-name = "Cristina_Text_Adventure"
+name = "cristina_text_adventure"
 version = "0.1.0"
+dependencies = [
+ "text_adventure 0.1.0 (git+https://github.com/arshiahf/text_adventure)",
+ "user_input 0.1.0 (git+https://github.com/arshiahf/user_input)",
+]
+
+[[package]]
+name = "text_adventure"
+version = "0.1.0"
+source = "git+https://github.com/arshiahf/text_adventure#3fb5ce23be3005bb0f84683be58f9f105ceabfaf"
 dependencies = [
  "user_input 0.1.0 (git+https://github.com/arshiahf/user_input)",
 ]
@@ -8,7 +17,8 @@ dependencies = [
 [[package]]
 name = "user_input"
 version = "0.1.0"
-source = "git+https://github.com/arshiahf/user_input#bd91f4e36d5eb2ef844225aca8372a8068a2a188"
+source = "git+https://github.com/arshiahf/user_input#d3d0186a37e6e27d20221e3624dddee86a3fce35"
 
 [metadata]
+"checksum text_adventure 0.1.0 (git+https://github.com/arshiahf/text_adventure)" = "<none>"
 "checksum user_input 0.1.0 (git+https://github.com/arshiahf/user_input)" = "<none>"
