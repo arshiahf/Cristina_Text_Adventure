@@ -9,7 +9,7 @@ dependencies = [
 [[package]]
 name = "text_adventure"
 version = "0.1.0"
-source = "git+https://github.com/arshiahf/text_adventure#3fb5ce23be3005bb0f84683be58f9f105ceabfaf"
+source = "git+https://github.com/arshiahf/text_adventure#d05efd8a699b5848cb605d1658a162cfd9d5669b"
 dependencies = [
  "user_input 0.1.0 (git+https://github.com/arshiahf/user_input)",
 ]
