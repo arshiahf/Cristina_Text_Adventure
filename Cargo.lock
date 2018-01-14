@@ -9,7 +9,7 @@ dependencies = [
 [[package]]
 name = "text_adventure"
 version = "0.1.0"
-source = "git+https://github.com/arshiahf/text_adventure#d05efd8a699b5848cb605d1658a162cfd9d5669b"
+source = "git+https://github.com/arshiahf/text_adventure#ca52817210584f0d49647a3c2bb838caec8147ac"
 dependencies = [
  "user_input 0.1.0 (git+https://github.com/arshiahf/user_input)",
 ]
@@ -17,7 +17,7 @@ dependencies = [
 [[package]]
 name = "user_input"
 version = "0.1.0"
-source = "git+https://github.com/arshiahf/user_input#d3d0186a37e6e27d20221e3624dddee86a3fce35"
+source = "git+https://github.com/arshiahf/user_input#efd548d320eb3f5585ca6fa994e71be962c44109"
 
 [metadata]
 "checksum text_adventure 0.1.0 (git+https://github.com/arshiahf/text_adventure)" = "<none>"
