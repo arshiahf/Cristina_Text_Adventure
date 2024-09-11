@@ -1,5 +1,5 @@
 [package]
-name = "cristina_text_adventure"
+name = "full_text_adventure"
 version = "0.1.0"
 authors = ["MTaurone <arshiahf@gmail.com>"]
 
